@@ -1,0 +1,15 @@
+{
+  "name": "streaming-backend",
+  "version": "1.0.0",
+  "description": "Backend para gestión y cobros de cuentas de streaming",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "sqlite3": "^5.1.6",
+    "bcryptjs": "^2.4.3"
+  }
+}
